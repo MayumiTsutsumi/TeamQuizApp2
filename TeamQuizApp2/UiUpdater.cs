@@ -19,7 +19,7 @@ namespace TeamQuizApp2
         public void ShowQuestion(Question q)
         {
             _questionLabel.Text = q.Text;
-            for (int i = 0; i < 4; i++)
+            for (int i = 0; i < 5; i++)
             {
                 _buttons[i].Text = q.Choices[i];
             }
