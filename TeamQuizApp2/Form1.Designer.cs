@@ -34,6 +34,7 @@
             answerButton3 = new Button();
             answerButton4 = new Button();
             logListBox = new ListBox();
+            answerButton5 = new Button();
             SuspendLayout();
             // 
             // questionLabel
@@ -93,11 +94,22 @@
             logListBox.Size = new Size(301, 284);
             logListBox.TabIndex = 5;
             // 
+            // answerButton5
+            // 
+            answerButton5.Location = new Point(62, 428);
+            answerButton5.Name = "answerButton5";
+            answerButton5.Size = new Size(94, 29);
+            answerButton5.TabIndex = 6;
+            answerButton5.Text = "button5";
+            answerButton5.UseVisualStyleBackColor = true;
+            answerButton5.Click += answerButton_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(800, 481);
+            Controls.Add(answerButton5);
             Controls.Add(logListBox);
             Controls.Add(answerButton4);
             Controls.Add(answerButton3);
@@ -118,5 +130,6 @@
         private Button answerButton3;
         private Button answerButton4;
         private ListBox logListBox;
+        private Button answerButton5;
     }
 }
