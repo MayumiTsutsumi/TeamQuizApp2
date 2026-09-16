@@ -7,7 +7,7 @@ namespace TeamQuizApp2
     public class Question
     {
         public string Text { get; set; } = "";
-        public string[] Choices { get; set; } = new string[4];
+        public string[] Choices { get; set; } = new string[5];
         public int CorrectIndex { get; set; }
     }
 
