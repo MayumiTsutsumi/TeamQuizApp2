@@ -1,7 +1,7 @@
 ﻿using System.Windows.Forms;
 using TeamQuizApp2;
 
-namespace TeamQuizApp
+namespace TeamQuizApp2
 {
     public class UiUpdater
     {
