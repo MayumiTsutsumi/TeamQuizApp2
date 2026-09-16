@@ -1,4 +1,4 @@
-﻿namespace TeamQuizApp
+﻿namespace TeamQuizApp2
 {
     public class ScoreManager
     {
