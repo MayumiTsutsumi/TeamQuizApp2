@@ -20,7 +20,7 @@ namespace TeamQuizApp2
             checker = new AnswerChecker();
             score = new ScoreManager();
             ui = new UiUpdater(questionLabel,
-                new[] { answerButton1, answerButton2, answerButton3, answerButton4 },
+                new[] { answerButton1, answerButton2, answerButton3, answerButton4, answerButton5 },
                 logListBox);
 
             LoadNextQuestion();
@@ -29,7 +29,7 @@ namespace TeamQuizApp2
         private void answerButton_Click(object sender, EventArgs e)
         {
             var btn = sender as Button;
-            int index = Array.IndexOf(new[] { answerButton1, answerButton2, answerButton3, answerButton4 }, btn);
+            int index = Array.IndexOf(new[] { answerButton1, answerButton2, answerButton3, answerButton4, answerButton5 }, btn);
 
             bool result = checker.CheckAnswer(current, index);
             score.Record(result);
