@@ -26,8 +26,8 @@ namespace TeamQuizApp2
                 _questions.Add(new Question
                 {
                     Text = cols[0],
-                    Choices = new[] { cols[1], cols[2], cols[3], cols[4] },
-                    CorrectIndex = int.Parse(cols[5])
+                    Choices = new[] { cols[1], cols[2], cols[3], cols[4], cols[5] },
+                    CorrectIndex = int.Parse(cols[6])
                 });
             }
         }
