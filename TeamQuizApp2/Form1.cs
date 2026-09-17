@@ -36,7 +36,7 @@ namespace TeamQuizApp2
 
             ui.LogResult(result ? "正解！" : "不正解...");
             ui.LogResult(score.GetResult());
-            //score.GetPrize();
+            score.GetPrize();
 
             LoadNextQuestion();
         }
